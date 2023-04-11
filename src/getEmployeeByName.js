@@ -1,7 +1,7 @@
-const data = require('../data/zoo_data');
+// const data = require('../data/zoo_data');
 
-const getEmployeeByName = (employeeName) => {
-  data.employees.map((firstName,lastName)=>)
-};
+// const getEmployeeByName = (employeeName) => {
+//   data.employees.map((firstName,lastName)=>)
+// };
 
-module.exports = getEmployeeByName;
+// module.exports = getEmployeeByName;
