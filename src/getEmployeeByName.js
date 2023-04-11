@@ -1,7 +1,9 @@
-// const data = require('../data/zoo_data');
+const data = require('../data/zoo_data');
 
-// const getEmployeeByName = (employeeName) => {
-//   data.employees.map((firstName,lastName)=>)
-// };
-
-// module.exports = getEmployeeByName;
+const getEmployeeByName = (employeeName) => {
+  if (!employeeName) { // se colocar o ! ele analisa como se a entrada NÃO EXISTE , se ela NÃO EXISTE ai retorna {}
+    return {};
+  } return data.employees
+    .find((name) => employeeName === name.firstName || employeeName === name.lastName);
+};
+module.exports = getEmployeeByName;
