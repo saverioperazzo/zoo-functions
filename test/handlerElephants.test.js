@@ -17,3 +17,5 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants(123)).toBe('Parâmetro inválido, é necessário uma string');
   });
 });
+
+// ta bonito assim e foi vc sozinho que fez
