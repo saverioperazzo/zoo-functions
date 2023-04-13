@@ -32,5 +32,5 @@ const handlerElephants = (param) => {
   }
   return computeData(param, elephants);
 };
-
+// console.log(handlerElephants(123));// substitua os valores de entrada dos parametros aqui
 module.exports = handlerElephants;
