@@ -1,8 +1,8 @@
-const data = require('../data/zoo_data');
+// const data = require('../data/zoo_data');
 
-const getEmployeesCoverage = () => {
-  if(name )
-  const test01 = data.employees.find((id01) => id01.id === id);
-};
+// const getEmployeesCoverage = () => {
+//   if(name )
+//   const test01 = data.employees.find((id01) => id01.id === id);
+// };
 
-module.exports = getEmployeesCoverage;
+// module.exports = getEmployeesCoverage;
